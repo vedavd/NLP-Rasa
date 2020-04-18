@@ -1,0 +1,32 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- what_do_you_have
+- vegetarian
+- non_veg
+- order_name_veg
+- order_name_non_veg
+- deny
+responses:
+  utter_botgreet:
+  - text: How can I help you sir?
+  utter_veg_non_veg:
+  - text: what would you prefer? veg or non veg?
+  utter_veg:
+  - text: we have mix veg,paneer butter masala,mushroom masala,etc?
+  utter_non_veg:
+  - text: we have egg curry, chicken butter masala, fish curry, boiled eggs, bread
+      omlette, etc.
+  utter_anythingelse:
+  - text: Is there anything else Sir?
+  utter_thanks:
+  - text: We will get your order shortly
+actions:
+- utter_botgreet
+- utter_veg_non_veg
+- utter_veg
+- utter_non_veg
+- utter_anythingelse
+- utter_thanks
