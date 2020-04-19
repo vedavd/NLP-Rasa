@@ -36,3 +36,10 @@ Waiter Chatbot with images as Bot Response
 ## About
 The bot asks if your preference is Veg or Non Veg and then assists you accordingly.
 Based on user selection the Bot will display Vegetarian or Non Vegetarian Menu
+
+
+# Part 5
+Waiter Chatbot with link to a page as a response
+
+## About
+This use case is about BOT displaying a url as a response to user query.
