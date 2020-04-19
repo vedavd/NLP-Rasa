@@ -1,0 +1,38 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- what_do_you_have
+- vegetarian
+- non_veg
+- order_name_veg
+- order_name_non_veg
+- deny
+responses:
+  utter_botgreet:
+  - text: How can I help you sir?
+  utter_veg_non_veg:
+  - text: 'what would you prefer:'
+    buttons:
+    - title: Vegetarian
+      payload: /vegetarian
+    - title: Non-Vegetarian
+      payload: /non_veg
+  utter_veg:
+  - text: 'Here are the meals for you:'
+    image: https://mirchistoke.co.uk/img/2019-5-2.jpg
+  utter_non_veg:
+  - text: 'Here are the meals for you:'
+    image: https://media-cdn.tripadvisor.com/media/photo-s/12/3e/7c/5f/non-veg-starters-menu.jpg
+  utter_anythingelse:
+  - text: Is there anything else Sir?
+  utter_thanks:
+  - text: We will get your order shortly
+actions:
+- utter_botgreet
+- utter_veg_non_veg
+- utter_veg
+- utter_non_veg
+- utter_anythingelse
+- utter_thanks
