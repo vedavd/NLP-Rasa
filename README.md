@@ -30,3 +30,9 @@ The bot asks if your preference is Veg or Non Veg and then assists you according
 But, Here the user will be provided with a button to choose between Vegetarian and Non Vegetarian.
 
 
+# Part 4
+Waiter Chatbot with images as Bot Response
+
+## About
+The bot asks if your preference is Veg or Non Veg and then assists you accordingly.
+Based on user selection the Bot will display Vegetarian or Non Vegetarian Menu
