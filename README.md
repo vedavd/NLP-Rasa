@@ -51,3 +51,6 @@ Waiter Chatbot with url embedded in a word
 ## About
 This use case is about BOT displaying a word with an embedded url.
 The user will be redirected to the url after clicking the word.
+
+# Part 7
+Illustrates usage of actions
