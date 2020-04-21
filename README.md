@@ -54,3 +54,6 @@ The user will be redirected to the url after clicking the word.
 
 # Part 7
 Illustrates usage of actions
+
+# Part 7a
+Use dynamic link in Rasa Chatbot
