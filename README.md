@@ -57,3 +57,6 @@ Illustrates usage of actions
 
 # Part 7a
 Use dynamic link in Rasa Chatbot
+
+# Part 10
+Illustrate Named Entity Extraction
