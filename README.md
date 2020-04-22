@@ -66,3 +66,6 @@ Illustrate Slots usage
 
 # Part 11a
 store user input in a variable and print
+
+# Part 12
+Illustrate rasa interactive
