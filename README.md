@@ -60,3 +60,6 @@ Use dynamic link in Rasa Chatbot
 
 # Part 10
 Illustrate Named Entity Extraction
+
+# Part 11
+Illustrate Slots usage
