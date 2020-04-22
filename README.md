@@ -63,3 +63,6 @@ Illustrate Named Entity Extraction
 
 # Part 11
 Illustrate Slots usage
+
+# Part 11a
+store user input in a variable and print
